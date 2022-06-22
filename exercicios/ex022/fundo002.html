@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando fundo</title>
+  <style>
+    body {
+      background-image: url('https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true');
+      background-size: 100px 100px;
+      background-repeat: repeat-x;
+    }
+
+    div.quadrado {
+      margin-top:80px;
+      border: 2px solid black;
+      width: 250px;
+      height: 250px;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    div#q1 {
+      background-color: skyblue;
+    }
+    div#q1:hover {
+      background-image:linear-gradient(to bottom, rgb(98, 98, 210),rgb(114, 74, 114)) ;
+    }
+
+    div#q2 {
+      background-image:linear-gradient(to bottom, yellow, red);
+    }
+    div#q2:hover {
+      background-image: linear-gradient(to bottom, red, yellow);
+    }
+
+    div#q3 {
+      background-image: url('img/pattern004.png');
+
+    }
+
+    div#q3:hover {
+      background-image: url('img/pattern001.png');
+    }
+  </style>
+</head>
+<body>
+  <h1>Testando background</h1>
+  <div class="quadrado" id="q1"></div>
+  <div class="quadrado" id="q2"></div>
+  <div class="quadrado" id="q3"></div>
+</body>
+</html>
