@@ -3,82 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabelas</title>
+  <title>Tabela</title>
   <!-- HIERARQUIA DE TABELAS (Simples)
         TABLE = TABELA
             TABLE HEADER = Cabeçalho da Tabela
                 TABLE DATA = Dado de Tabela
   -->
+
   <style>
+
     body {
       font-family: Arial, Helvetica, sans-serif;
     }
 
     section {
-      border: 1px solid black;
+      width: 600px;
+      border: 1px solid #000;
       padding: 20px;
       margin: auto;
-      width: 600px;
     }
 
     h1 {
-      border: 1px solid black;
-      padding: 5px;
-      background-color: rgb(221, 221, 221);
-      text-align: center;
-    }
-
-    table {
-      width: 300px;
-      border-collapse: collapse;
+      border: 1px solid #000;
+      padding: 10px;
+      width: 180px;
       margin: auto;
     }
 
-    tr.linha {
-      background-color: rgba(128, 128, 128, 0.359);
-    }
-    td {
-      border: 0.6px solid black;
-      padding: 8px;
+    table {
+      margin: auto;
+      border: 0.6px solid #000;
+      margin-top: 30px;
+      padding: 20px;
+      border-collapse: collapse;
     }
 
+    tr.linha {
+      background: #808080;
+    }
+
+    td {
+      padding: 10px;
+      border: 0.6px solid #000;
+    }
+    
     td.dado {
-      background-color: yellow;
+      background-color: #fff909;
     }
 
     td:hover {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgb(172, 172, 172);
       transition: 0.6s;
     }
+
+
   </style>
 </head>
 <body>
   <section>
     <h1>Primeira Tabela</h1>
     <table>
-      <tr>  <!--Primeira Linha-->
+      <tr>
           <td>A1</td>
           <td>B1</td>
           <td>C1</td>
-    
       </tr>
-      <tr class="linha"> <!--Segunda Linha-->
+
+      <tr>
           <td>A2</td>
           <td>B2</td>
           <td>C2</td>
-    
       </tr>
-      <tr> <!--Terceira Linha-->
+
+      <tr class="linha">
           <td>A3</td>
           <td>B3</td>
           <td>C3</td>
-    
       </tr>
-      <tr> <!--Quarta Linha-->
+
+      <tr>
           <td>A4</td>
           <td class="dado">B4</td>
           <td>C4</td>
-    
       </tr>
     </table>
   </section>
