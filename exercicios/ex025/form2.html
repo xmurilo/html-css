@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <style>
+    * {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulário</h1>
+
+  <form action="cadrasto.php" method="post" autocomplete="on">
+
+    <label for="iusu">Usuário:</label>
+    <input type="text" name="usu" id="iusu" required maxlength="30" placeholder="Nome de Usuário" autocomplete="username">
+
+    <p>
+      
+      <label for="isenha">Senha:</label>
+      <input type="password" name="senha" id="isenha" minlength="8" size="10" autocomplete="current-password">
+
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+
+    </p>
+  </form>
+
+
+</body>
+</html>
