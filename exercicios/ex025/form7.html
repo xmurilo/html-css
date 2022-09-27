@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select, Datalist, TextArea</title>
+  </head>
+  <body>
+    <h1>Select, Datalist, TextArea</h1>
+
+    <form action="cadrasto.php" method="post" autocomplete="on">
+      <label for="estado0">Escolha um estado:</label>
+      <select name="estado" id="estado0">
+        <option value="" selected>-- Estado --</option>
+        <optgroup label="Região Norte">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="TO">Tocantins</option>
+          <option value="PA">Pará</option>
+          <option value="RR">Roraina</option>
+          <option value="RO">Rondônia</option>
+        </optgroup>
+
+        <optgroup label="Região Nordeste">
+          <option value="CE">Ceará</option>
+          <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="MA">Maranhão</option>
+          <option value="PB">Paraiba</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="SE">Sergipe</option>
+        </optgroup>
+
+        <optgroup label="Região Centro-Oeste">
+          <option value="GO">Goiás</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="DF">Distrito Federal</option>
+        </optgroup>
+
+        <optgroup label="Região Sudeste">
+          <option value="ES">Espiritio Santos</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+
+        <optgroup label="Região Sul">
+          <option value="PR">Paraná</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="RS">Rio Grande do Sul</option>
+        </optgroup>
+      </select>
+
+      <p>
+        <label for="prof1">Profissão:</label>
+        <input type="text" name="prof" id="prof1" list="lstprof" />
+        <datalist id="lstprof">
+          <option value="adm">Admnistrador</option>
+          <option value="dev">Desenvolvedor</option>
+          <option value="prof">Professor</option>
+          <option value="adv">Advogado</option> 
+        </datalist>
+      </p>
+
+      <p>
+        <label for="heroi">Escolha um super heroi</label>
+        <input type="text" name="heroi" id="heroi1" list="list-hero" />
+        <datalist id="list-hero">
+          <option value="thor">Thor</option>
+          <option value="homem-aranha">Homem-Aranha</option>
+          <option value="invencivel">Invencivel</option>
+          <option value="batman">Batman</option>
+        </datalist>
+      </p>
+
+      <p>
+        <textarea
+          name="mgs"
+          id="msg1"
+          cols="30"
+          rows="10"
+          placeholder="Mensagem aqui.."
+        ></textarea>
+      </p>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>

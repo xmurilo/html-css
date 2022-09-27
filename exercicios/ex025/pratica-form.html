@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output</title>
+    <style>
+      fieldset {
+        margin-top: 10px;
+        
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <form action="cadrasto.php" method="post">
+      <fieldset>
+        <legend>Calc</legend>
+        <p>
+          <label for="number">Digite o primeiro numero:</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            oninput="soma.innerHTML = Number(number.value) + Number(number2.value)"
+            min="0"
+            max="50"
+          />
+        </p>
+        <p>
+          <label for="number2"> Segundo numero</label>
+          <input type="number" name="number2" id="number2" min="0" max="50" />
+        </p>
+        <label for="soma">A soma é</label>
+        <output id="soma">0</output>
+      </fieldset>
+
+      <fieldset>
+        <legend>Range</legend>
+
+        <label for="num">Nivel de satisfação</label>
+        <input
+          type="range"
+          name="num"
+          id="num"
+          min="0"
+          max="10"
+          oninput="bar.innerHTML = Number(num.value)"
+        />
+        <output id="bar">5</output>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ano de nascimento</legend>
+
+        <label for="nasc">Ano de nascimento:</label>
+        <input
+          type="number"
+          name="nasc"
+          id="nasc"
+          min="1900"
+          max="2022"
+          oninput="calcidade()"
+        />
+
+        <br />
+        <br />
+        <label for="idade"></label>
+        <output id="idade">Sua idade em 2022 sera:</output>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select</legend>
+        <label for="hero">Selecione um personagem:</label>
+        <select name="hero" id="hero">
+          <option value="" selected>--Personagem--</option>
+          <optgroup label="Soldado">
+            <option value="Nesto">Nesto</option>
+            <option value="calvacanti">Calvacanti</option>
+            <option value="winston">Winston</option>
+          </optgroup>
+
+          <optgroup label="Mago">
+            <option value="mazera">Mazera</option>
+            <option value="jossana">Jossana</option>
+            <option value="bagrindosh">Bragrindosh</option>
+          </optgroup>
+
+          <optgroup label="Flanco">
+            <option value="capa">Capa</option>
+            <option value="frankstorf">Frankstorf</option>
+            <option value="bullmax">Bullmax</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Something</legend>
+        <label for="prof">Selecione sua Profissão:</label>
+        <input type="text" name="prof" id="prof" list="profi">
+        <datalist id="profi">
+          <option value="adv">Advogado</option>
+          <option value="adm">Administrador</option>
+          <option value="assistente-adm">Assistente Administrativo</option>
+        </datalist>
+      </fieldset>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+
+    <script>
+      function calcidade() {
+        let atual = new Date().getFullYear()
+        idade.innerHTML = Number(atual) - Number(nasc.value)
+      }
+    </script>
+  </body>
+</html>
