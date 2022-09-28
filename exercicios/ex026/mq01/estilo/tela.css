@@ -1,0 +1,38 @@
+/* CSS Tela */
+
+/* vermelho bonito #903f */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: #89dd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+menu ul {
+  padding-top: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+
+menu li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+main {
+  width: 600px;
+  margin: auto; 
+  background-color: rgba(179, 187, 219, 0.867);
+}
+

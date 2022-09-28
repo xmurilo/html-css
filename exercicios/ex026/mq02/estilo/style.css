@@ -1,0 +1,21 @@
+/* Todos os dispositivos */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background-color: #233eff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  padding: 50px;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.507);
+}
+

@@ -1,0 +1,7 @@
+/* Paisagem (Landscape) */
+
+body, html {
+  background-image: url(../imgs/cev-landscape.jpg);
+  background-position: left bottom;
+  background-size: contain;
+}

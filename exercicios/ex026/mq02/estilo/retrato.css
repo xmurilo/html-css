@@ -1,0 +1,7 @@
+/* Retrato (Portrait) */
+
+body, html {
+  background-image: url(../imgs/cev-portrait.jpg);
+  background-size: contain;
+  background-position: bottom center;
+}
