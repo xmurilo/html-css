@@ -1,0 +1,117 @@
+/* Todos as demais medias */
+
+/* 
+TYPICAL DEVICE MEDIAS
+
+-Telas pequenas - Até 600px
+-Celular - 600px até 768px
+-Tablet - 768px até 992px
+-Desktop - 992px até 1200px
+-Tv - 1200px para cima
+
+*/
+
+/* Impressoras */
+@media print {
+  
+  * {
+    font-family:monospace;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100vh;
+  }
+  
+  main {
+    border: 1px solid #000 ;
+  }
+  
+  main h1 {
+    color: #000;
+    padding: 50px;
+    text-align: center;
+    text-shadow: none;
+  }
+
+  main::after {
+    text-decoration: overline;
+    content: 'Estou aprendendo media Queries';
+  }
+
+
+  img#phone {display: none;}
+  img#tv {display: none;}
+  img#tablet {display: none;}
+  img#print {
+    display: block; 
+    margin: auto; 
+  }
+  img#pc {display:none;}
+}
+
+/* TABLET */
+@media screen and (min-width:769px) and (max-width:992px) {
+  body {
+    background-image: url(../imagens/back-tablet.jpg);
+   
+  }
+
+  main {
+    width: 600px;
+    
+  }
+
+  img#phone {display: none;}
+  img#tablet {
+    display: block;
+    margin: auto;}
+  img#print {display: none;}
+  img#pc {display:none;}
+  img#tv {display: none;}
+
+}
+
+/* DESKTOP */
+@media screen and (min-width:993px) and (max-width:1200px) {
+  body {
+    background-image: url(../imagens/back-pc.jpg);
+     
+  }
+
+  main {
+    width: 800px;
+    
+  }
+
+  img#phone {display: none;}
+  img#tablet {display: none}
+  img#print {display: none;}
+  img#pc {display:block; margin: auto;}
+  img#tv {display: none;}
+
+}
+
+/* TVS */
+@media screen and (min-width:1201px) {
+  body {
+    background-image: url(../imagens/back-tv.jpg);
+     
+  }
+
+  main {
+    width: 1000px;
+   
+  }
+
+  img#phone {display: none;}
+  img#tablet {display: none}
+  img#print {display: none;}
+  img#pc {display:none;}
+  img#tv {display: block; margin: auto;}
+
+
+}

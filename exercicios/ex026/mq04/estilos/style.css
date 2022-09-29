@@ -1,0 +1,51 @@
+/* Mobile first */
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background: url(.././imagens/back-phone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #000;
+  transition: 0.7s;
+}
+
+main {
+  background-color: #3290e3b9;
+
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+
+  transition: 0.7s;
+  border-radius: 10px;
+}
+
+main h1 {
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.574);
+}
+
+img#phone { 
+
+  display:block;
+  margin: auto;
+}
+img#tv {display: none;}
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display:none;}
