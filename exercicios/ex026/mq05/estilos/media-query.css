@@ -1,0 +1,32 @@
+
+/* Meida Query */
+
+@media  screen and (min-width:768px) {
+  
+  span#burguer {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  nav a {
+    
+    border-top: none;
+    border-radius: 8px;
+  }
+
+  main {
+    width: 700px;
+  }
+  
+}
