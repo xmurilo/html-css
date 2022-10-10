@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+p {
+  background-color: darkviolet;
+  margin: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,9 @@
+.descricao-produto {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+}
+
+.promocao {
+  border: 5px solid #000;
+}

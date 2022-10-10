@@ -1,0 +1,22 @@
+html {
+  background-color: darkgrey;
+  font-size: 32px;  
+}
+
+body {
+  background-color: darkcyan;
+  width: 50%;
+  
+}
+
+div.pai {
+  background-color: #ea80fc;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+div.filha {
+  background-color: #1de;
+  width: 50%;
+  font-size: .7rem;
+}

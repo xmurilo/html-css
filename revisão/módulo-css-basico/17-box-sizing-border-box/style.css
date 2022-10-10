@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid darkcyan;
+}
+
+
+div.com-border-box {
+  background-color: darkorange;
+  box-sizing: border-box;
+
+}
+
+div.sem-border-box {
+  background-color: blue;
+  
+}
