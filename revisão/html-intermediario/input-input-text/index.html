@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+  </head>
+  <body>
+    <h1>Input Text</h1>
+
+    <form action="servidor-backend" method="post">
+      <div class="email">
+        <label for="email"></label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+          autocomplete="email"
+        />    
+      </div>
+
+      <div class="senha">
+        <label for="senha"></label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          required
+          minlength="8"
+          placeholder="Senha"
+          autocomplete="current-password"
+        />
+      </div>
+      
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
