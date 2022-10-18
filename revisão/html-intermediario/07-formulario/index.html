@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+
+    <h1>Formulario na prática</h1>
+
+    <form action="servidor" method="get" enctype="multipart/form-data">
+      <input type="text" name="nome" id="nome" placeholder="Nome" required />
+
+      <input
+        type="text"
+        name="sobre-nome"
+        id="sobre-nome"
+        placeholder="Sobrenome"
+        required
+      />
+      <br />
+      <br />
+
+      <input
+        type="text"
+        name="celular-ou-email"
+        id="celular-ou-email"
+        placeholder="Celular ou Email"
+        required
+      />
+
+      <input type="password" name="senha" id="senha" placeholder="Senha" required />
+
+      <br />
+      <br />
+
+      <label>Data de nascimento</label> <br />
+
+      <select name="dia" required>
+        <option value="" hidden selected>Dia</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+      <select name="mes" required>
+        <option value="" hidden selected>Mes</option>
+        <option value="jan">Jan</option>
+        <option value="fev">Fev</option>
+        <option value="mar">Mar</option>
+      </select>
+
+      <select name="ano" required>
+        <option value="" hidden selected>Ano</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label>Gênero</label>
+      <br />
+
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="masculino" value="masculino" checked required />
+
+      <label for="feminino">Feminino</label>
+      <input type="radio" name="genero" id="feminino" value="feminino" />
+
+      <label for="outro">Outro</label>
+      <input type="radio" name="genero" id="outro" value="outro" />
+
+      <br />
+      <br />
+      <label for="foto">Escolha uma foto</label> <br>
+      <input type="file" name="foto" id="foto">
+
+      <br />
+      <br />
+
+      <input type="submit" value="Cadrastar" />
+    </form>
+  </body>
+</html>
