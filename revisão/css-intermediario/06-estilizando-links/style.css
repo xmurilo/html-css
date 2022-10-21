@@ -1,0 +1,22 @@
+a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: slateblue;
+  cursor: pointer;
+}
+
+a:visited {
+  color: steelblue;
+
+}
+
+a:active {
+  background-color: slategrey;
+  color: #fff ;
+}
+
+a:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
