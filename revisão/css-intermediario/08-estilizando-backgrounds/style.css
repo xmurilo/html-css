@@ -1,0 +1,37 @@
+p {
+  color: steelblue;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bg {
+  background-color: forestgreen;
+  background-image: url('./imgs/girassois.jpg');
+  padding: 10px;
+}
+
+.bg-image {
+  height: 367px;
+  width: 600px;
+}
+
+.bg-repeat {
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.bg-size-cover {
+  background-size: cover;
+  height: 500px;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.bg-position {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+}
