@@ -1,0 +1,59 @@
+/* Geral */
+
+body {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.container {
+  height: 300px;
+  background-color: lightslategray;
+  margin: 50px 0;
+  position: relative;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  background-color: lightseagreen;
+  font-size: 1.2em;
+}
+
+/* --- */
+
+.texto-centralizado-1 {
+  height: 250px;
+  width: 250px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 250px;
+  margin-bottom: 10px;
+}
+
+
+.texto-centralizado-2 {
+  background-color: royalblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.alinhado-margin-auto {
+  display: block;
+  margin: auto;
+}
+
+.alinhado-absolute {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.container-text-align {
+  text-align: center;
+  background-color: royalblue;
+}
