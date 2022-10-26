@@ -1,0 +1,32 @@
+
+.left, .right {
+  width: 100px;
+  height:  100px;
+}
+
+.left {
+  background-color: lightseagreen;
+  float: left;
+}
+
+.right {
+  background-color: lightsalmon;
+  float: right;
+}
+
+.float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-text img {
+  float: left;
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  text-align: justify;
+}
