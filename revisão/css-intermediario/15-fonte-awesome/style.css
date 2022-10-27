@@ -1,0 +1,9 @@
+ .fa-facebook {
+  font-size: 100px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+ color: royalblue;
+ transition: 0.4s;
+}
