@@ -6,17 +6,20 @@ body {
 }
 
 .container {
-  height: 300px;
   background-color: lightslategray;
+
+  height: 300px;
   margin: 50px 0;
+
   position: relative;
 }
 
 .btn {
-  width: 250px;
-  height: 50px;
   background-color: lightseagreen;
   font-size: 1.2em;
+
+  width: 250px;
+  height: 50px;
 }
 
 /* Geral */
@@ -54,6 +57,6 @@ body {
 }
 
 .container-text-align {
-  text-align: center;
   background-color: royalblue;
+  text-align: center;
 }
