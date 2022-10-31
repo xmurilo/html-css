@@ -1,9 +1,10 @@
 @media (max-width:992px) {
   .secao-com-texto {
-    padding: 153px 0;
+    padding: 153px 25px;
   }
 
-  .secao-com-texto p {
+  .secao-com-texto p,
+  .secao-com-texto.onde-estamos p {
     width: 100%;
   }
 
@@ -37,7 +38,7 @@
   }
 
   .painel h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .secao-com-texto h2 {
