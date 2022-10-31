@@ -40,6 +40,10 @@ body {
   display: inline-block;
 }
 
+.cabecalho ul li a {
+  letter-spacing: 1px;
+}
+
 .cabecalho ul li a:hover {
   font-weight: bold;
   transition: 0.5s;
@@ -125,7 +129,7 @@ body {
 .contato {
   position: relative;
   background: url(../images/fundo-contato.jpg) center center no-repeat;
-  height: 600px;
+  height: 600px; 
   color: #fff;
 }
 
@@ -144,6 +148,7 @@ body {
 .contato address {
   font-size: 25px;
   font-weight: 600;
+  line-height: 25px;
 }
 
 .rodape {
