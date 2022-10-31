@@ -7,10 +7,35 @@
   .secao-com-texto.onde-estamos p {
     width: 100%;
   }
-
-
-
 } 
+
+
+@media (max-width:720px) {
+  .ladrilhos .grande,
+  .ladrilhos .medio {
+    width: 100%;
+  }
+
+  .ladrilhos .pequena.grao,
+  .ladrilhos .pequena {
+    width: 50%;
+  }
+
+  .contato {
+    background-position: right center;
+  }
+
+  .contato .texto-contato {
+    position: static;
+    text-align: center;
+    padding-top: 201px;
+  }
+
+  .contato address {
+    font-size: 20px;
+    margin-top: 51px;
+  }
+}
 
 
 @media  (max-width:425px) { 
@@ -45,14 +70,20 @@
     font-size: 3rem;
   }
   
-  .secao-com-texto p {
+  .secao-com-texto.onde-estamos p {
     font-size: 2rem;
   }
 
-  .ladrilhos div {
-    display: block;
+ 
+
+  
   }
 
+  @media  (max-width:375px) {
+    .ladrilhos .pequena.grao,
+    .ladrilhos .pequena {
+      width: 100%;
 
+    }
 
   }
