@@ -7,10 +7,38 @@
   .secao-com-texto.onde-estamos p {
     width: 100%;
   }
+
+  
 } 
+
+@media (max-width:768px) {
+
+  .contato {
+    background-image: none;
+    background-color: #D3AE71;
+    height: 527px;
+  }
+
+  .contato .texto-contato {
+    position: static;
+    text-align: center;
+    padding-top: 101px;
+  }
+
+  .contato address {
+    font-size: 20px;
+    margin-top: 51px;
+  }
+
+}
 
 
 @media (max-width:720px) {
+
+  .painel h2 {
+    font-size: 3.5rem;
+  }
+
   .ladrilhos .grande,
   .ladrilhos .medio {
     width: 100%;
@@ -21,31 +49,58 @@
     width: 50%;
   }
 
-  .contato {
-    background-position: right center;
+  
+
+  .rodape {
+   background: none;
+   background-color: #000;
+   text-align: center;
   }
 
-  .contato .texto-contato {
-    position: static;
-    text-align: center;
-    padding-top: 201px;
+  .rodape .logo {
+    display: block;
+    margin: 122px auto;
+
   }
 
-  .contato address {
-    font-size: 20px;
-    margin-top: 51px;
+  .rodape ul {
+    float: none;
+    display: block;
+    width: 100%;
   }
+
+  .rodape ul li  {
+    display: block;
+    margin: 28px 0;
+  }
+
+  .rodape ul li a {
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+  }
+
+  .rodape .redes-sociais {
+    float: none;
+    margin-top: 122px;
+  }
+
+  .rodape .copyright {
+    margin-top: 28px;
+    margin-bottom: 72px;
+  }
+
 }
 
 
 @media  (max-width:425px) { 
 
-  .cabecalho .logo {
+    .cabecalho .logo {
     display: block;
     margin: 0 auto;
   }
   
-  .cabecalho nav {
+   .cabecalho nav {
     position: static;
     display: block;
     text-align: center;
@@ -53,24 +108,24 @@
 
   }
 
-  .cabecalho ul li {
+    .cabecalho ul li {
     display: block;
   }
 
-  .cabecalho nav ul li a {
+    .cabecalho nav ul li a {
     display: block;
     width: 100%;
   }
 
-  .painel h2 {
+    .painel h2 {
     font-size: 2.5rem;
   }
 
-  .secao-com-texto h2 {
+    .secao-com-texto h2 {
     font-size: 3rem;
   }
   
-  .secao-com-texto.onde-estamos p {
+    .secao-com-texto.onde-estamos p {
     font-size: 2rem;
   }
 
