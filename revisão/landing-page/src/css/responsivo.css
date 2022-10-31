@@ -1,3 +1,17 @@
+@media (max-width:992px) {
+  .secao-com-texto {
+    padding: 153px 0;
+  }
+
+  .secao-com-texto p {
+    width: 100%;
+  }
+
+
+
+} 
+
+
 @media  (max-width:425px) { 
 
   .cabecalho .logo {
@@ -23,7 +37,21 @@
   }
 
   .painel h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
-}
+  .secao-com-texto h2 {
+    font-size: 3rem;
+  }
+  
+  .secao-com-texto p {
+    font-size: 2rem;
+  }
+
+  .ladrilhos div {
+    display: block;
+  }
+
+
+
+  }
