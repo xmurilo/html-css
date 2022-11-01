@@ -1,4 +1,3 @@
-
 /* Efeito Cascata */
 /* .container-cascata  {
   background-color: darkcyan;
@@ -8,17 +7,16 @@
   background-color: darkgreen;
 } */
 
-
 /* ----Especifidade----- */
 
 p {
   background-color: lightseagreen;
 }
 
- .container-especifidade p {
+.container-especifidade p {
   background-color: forestgreen;
-} 
+}
 
-  #meu-paragrafo {
+#meu-paragrafo {
   background-color: cornflowerblue;
- } 
+}

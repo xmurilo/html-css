@@ -47,13 +47,13 @@
 /* -------------------------------------- */
 /* --------- LETTER SPACING ------------- */
 /* -------------------------------------- */
-  .altura-entre-linhas {
-    line-height: 40px;
-  }
+.altura-entre-linhas {
+  line-height: 40px;
+}
 
-  .espaco-entre-letras {
-    letter-spacing: 10px;
-  }
+.espaco-entre-letras {
+  letter-spacing: 10px;
+}
 
 /* -------------------------------------- */
 /* --------- SOMBRA NO EXTO ------------- */
@@ -62,23 +62,22 @@
   text-shadow: 10px 10px 1px #808080;
 }
 
-
 /* -------------------------------------- */
 /* --------------- GERAL  --------------- */
 /* -------------------------------------- */
 
 .fundo-alinhamento {
-  background-color: #D1C4E9;
+  background-color: #d1c4e9;
   padding: 20px;
 }
 .fundo-transform {
   padding: 20px;
-  background-color: #C8E6C9;
+  background-color: #c8e6c9;
 }
 
 .fundo-decoration {
   padding: 20px;
-  background-color: #FFF9C4;
+  background-color: #fff9c4;
 }
 
 .fundo {

@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'milky';
-  src: url(fonts/MilkyNice.otf), 
-  url(fonts/MilkyNice.ttf);
+  src: url(fonts/MilkyNice.otf), url(fonts/MilkyNice.ttf);
 }
 
 body {

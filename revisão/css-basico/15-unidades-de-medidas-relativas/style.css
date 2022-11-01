@@ -1,12 +1,11 @@
 html {
   background-color: darkgrey;
-  font-size: 32px;  
+  font-size: 32px;
 }
 
 body {
   background-color: darkcyan;
   width: 50%;
-  
 }
 
 div.pai {
@@ -18,5 +17,5 @@ div.pai {
 div.filha {
   background-color: #1de;
   width: 50%;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }

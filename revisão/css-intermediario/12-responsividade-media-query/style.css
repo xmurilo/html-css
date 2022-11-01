@@ -4,13 +4,12 @@
 }
 
 body {
-  background-color: #E1E2E1;
+  background-color: #e1e2e1;
 }
 
 .cabecalho {
   padding: 10px 5px;
   background-color: skyblue;
-  
 }
 
 .cabecalho .logo {
@@ -48,10 +47,9 @@ main p {
   margin-top: 20px;
 }
 
-@media (max-width:576px) {
-
+@media (max-width: 576px) {
   .cabecalho {
-    text-align: center;  
+    text-align: center;
   }
 
   .cabecalho nav {
@@ -60,7 +58,5 @@ main p {
 
   .cabecalho nav li {
     display: block;
-
   }
-
 }

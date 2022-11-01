@@ -3,9 +3,8 @@ margin-right: 30px;
 margin-bottom: 30px;
 margin-left: 30px; */
 
-
 p {
-  margin: 30px;  
+  margin: 30px;
   padding: 20px;
   background-color: aquamarine;
   border-style: solid;
@@ -18,6 +17,4 @@ h1 {
   border-style: solid;
   border-color: darkblue darkcyan darkorange darkred;
   padding: 1em;
-
 }
-

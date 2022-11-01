@@ -7,7 +7,6 @@
     <title>Formulario</title>
   </head>
   <body>
-
     <h1>Formulario na prática</h1>
 
     <form action="servidor" method="get" enctype="multipart/form-data">
@@ -31,7 +30,13 @@
         required
       />
 
-      <input type="password" name="senha" id="senha" placeholder="Senha" required />
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Senha"
+        required
+      />
 
       <br />
       <br />
@@ -66,7 +71,14 @@
       <br />
 
       <label for="masculino">Masculino</label>
-      <input type="radio" name="genero" id="masculino" value="masculino" checked required />
+      <input
+        type="radio"
+        name="genero"
+        id="masculino"
+        value="masculino"
+        checked
+        required
+      />
 
       <label for="feminino">Feminino</label>
       <input type="radio" name="genero" id="feminino" value="feminino" />
@@ -76,8 +88,8 @@
 
       <br />
       <br />
-      <label for="foto">Escolha uma foto</label> <br>
-      <input type="file" name="foto" id="foto">
+      <label for="foto">Escolha uma foto</label> <br />
+      <input type="file" name="foto" id="foto" />
 
       <br />
       <br />

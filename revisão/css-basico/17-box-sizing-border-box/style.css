@@ -5,14 +5,11 @@ div {
   border: 10px solid darkcyan;
 }
 
-
 div.com-border-box {
   background-color: darkorange;
   box-sizing: border-box;
-
 }
 
 div.sem-border-box {
   background-color: blue;
-  
 }

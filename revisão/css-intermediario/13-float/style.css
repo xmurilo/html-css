@@ -1,7 +1,7 @@
-
-.left, .right {
+.left,
+.right {
   width: 100px;
-  height:  100px;
+  height: 100px;
 }
 
 .left {
@@ -15,7 +15,7 @@
 }
 
 .float::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }

@@ -70,11 +70,10 @@ body {
   clear: both;
 }
 
-
 .secao-com-texto header img {
   height: 170px;
   width: 170px;
-  
+
   margin-bottom: 70px;
 }
 
@@ -99,7 +98,6 @@ body {
   float: left;
 }
 
-
 .ladrilhos .grande {
   background: url(../images/4.jpg) right center no-repeat;
   height: 600px;
@@ -119,17 +117,16 @@ body {
   width: 25%;
 }
 
-
 .medio {
   background: url(../images/1.jpg) center center no-repeat;
   height: 300px;
-  width: 50%; 
+  width: 50%;
 }
 
 .contato {
   position: relative;
   background: url(../images/fundo-contato.jpg) center center no-repeat;
-  height: 600px; 
+  height: 600px;
   color: #fff;
 }
 
@@ -178,7 +175,6 @@ body {
 
 .rodape .copyright {
   color: #fff;
-
 }
 
 .rodape .redes-sociais .facebook,
@@ -188,12 +184,11 @@ body {
   margin: 0 10px;
 }
 
-.facebook:hover, 
+.facebook:hover,
 .instagram:hover {
   transform: scale(1.2);
   transition: 0.5s;
 }
-
 
 .rodape .redes-sociais {
   float: right;

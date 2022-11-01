@@ -8,12 +8,11 @@ a {
 
 a:visited {
   color: steelblue;
-
 }
 
 a:active {
   background-color: slategrey;
-  color: #fff ;
+  color: #fff;
 }
 
 a:hover {

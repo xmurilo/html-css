@@ -3,8 +3,8 @@
 }
 
 body {
-    height: 1000px;
-    padding-top: 68px; /*Soma do eixo Y com a altura do elemento padrão  */
+  height: 1000px;
+  padding-top: 68px; /*Soma do eixo Y com a altura do elemento padrão  */
 }
 
 header {
@@ -15,5 +15,5 @@ header {
 
   position: fixed;
   top: 0;
-  box-shadow: 0px 3px  rgba(0, 0, 0, 0.258);
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.258);
 }
