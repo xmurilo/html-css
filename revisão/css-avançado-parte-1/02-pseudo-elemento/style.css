@@ -1,0 +1,27 @@
+.primeira-letra::first-letter {
+  font-size: 32px;
+  color: lightseagreen;
+}
+
+.primeira-linha::first-line {
+  font-size: 32px;
+  color: royalblue;
+}
+
+.before::before {
+  content: "";
+  height: 85px;
+  width: 85px;
+  background-color: lightskyblue;
+  display: inline-block;
+}
+
+.after::after {
+  content: "";
+  height: 85px;
+  width: 85px;
+  background-image: radial-gradient( red, orange, yellow, blue, purple, pink, green);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
