@@ -54,3 +54,10 @@ a[target='_blank'] {
   font-size: 32px;
   background-color: lightseagreen;
 }
+
+a[href="google.com"] {
+  font-size: 32px;
+  margin-left: 50px;
+  background-color: darkslateblue;
+  color: lightseagreen;
+}
