@@ -9,7 +9,7 @@
 }
 
 .before::before {
-  content: "";
+  content: '';
   height: 85px;
   width: 85px;
   background-color: lightskyblue;
@@ -22,10 +22,18 @@ li::marker {
 }
 
 .after::after {
-  content: "";
+  content: '';
   height: 85px;
   width: 85px;
-  background-image: radial-gradient( red, orange, yellow, blue, purple, pink, green);
+  background-image: radial-gradient(
+    red,
+    orange,
+    yellow,
+    blue,
+    purple,
+    pink,
+    green
+  );
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;

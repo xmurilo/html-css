@@ -1,0 +1,56 @@
+h1 {
+  color: green;
+}
+
+.paragrafo {
+  color: blue;
+}
+
+#menu {
+  margin: 100px;
+}
+
+* {
+  padding: 0;
+}
+
+.titulo {
+  font-size: 32px;
+}
+
+.titulo.vermelho {
+  background-color: rgb(208, 68, 68);
+}
+
+.titulo.azul {
+  background-color: rgb(77, 77, 230);
+}
+
+.texto,
+span {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.168),
+    rgba(0, 128, 0, 0.16),
+    rgba(0, 0, 255, 0.166)
+  );
+}
+
+.sobre .texto-sobre {
+  font-style: italic;
+  font-size: 23px;
+}
+
+/* div > p {
+  color: darkmagenta;
+  background-color: rgb(255, 200, 178);
+} */
+
+div + p {
+  color: lightgreen;
+}
+
+a[target='_blank'] {
+  font-size: 32px;
+  background-color: lightseagreen;
+}
