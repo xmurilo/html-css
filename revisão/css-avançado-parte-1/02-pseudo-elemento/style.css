@@ -16,6 +16,11 @@
   display: inline-block;
 }
 
+li::marker {
+  color: yellow;
+  font-size: 20px;
+}
+
 .after::after {
   content: "";
   height: 85px;
