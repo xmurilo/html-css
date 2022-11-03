@@ -1,0 +1,39 @@
+:root {
+  --cor-destaque-titulo:#f10370;
+  --peso-fonte-titulo:500;
+  --font-family-padrao: helvetica, arial, sans-serif;
+
+  --cor-sub-titulo:#f78c7c;
+  --peso-fonte-sub-titulo:300;
+
+
+  --tamanho-fonte-texto: 20px;
+  --estilo-fonte-texto:italic;
+}
+
+
+h1 {
+  background-color: var(--cor-destaque-titulo);
+  font-family: var(--font-family-padrao, arial);
+  font-weight: var(--peso-fonte-titulo);
+}
+
+h2 {
+  color: var(--cor-sub-titulo, lightcoral);
+  font-weight: var(--peso-fonte-sub-titulo, 200);
+}
+
+p{
+  font-size: var(--tamanho-fonte-texto, 20px);
+  font-style: var(--estilo-fonte-texto, italic);
+}
+
+.texto-destaque {
+  --cor-destaque:#0910ff;
+  --fonte-destaque:monospace, helvetica, sans-serif;
+  --peso-de-fonte-destaque:100;
+
+  color: var(--cor-destaque);
+  font-family: var(--fonte-destaque);
+  font-weight: var(--peso-de-fonte-destaque);
+}
