@@ -15,7 +15,11 @@
 }
 
 .basis-auto {
-  flex-basis:auto;
+  flex-basis: auto;
+}
+
+.basis-0 {
+  flex-basis: 0;
 }
 
 .basis-100 {
@@ -28,4 +32,20 @@
 
 .basis-300 {
   flex-basis: 300px;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-3 {
+  flex-shrink: 3;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
