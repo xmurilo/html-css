@@ -12,6 +12,25 @@
   flex-basis: 0;
 }
 
+.flex-basis {
+  flex-basis: 100px;
+}
+
 .wrap {
   flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+}
+
+.item.item1 {
+  order: 1;
+}
+
+.item.item2 {
+  order: 2;
+}
+.item.item3 {
+  order: 3;
 }
