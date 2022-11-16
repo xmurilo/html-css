@@ -10,3 +10,7 @@
   margin: 5px;
   text-align: center;
 }
+
+.align-self .item {
+  flex: 1;
+}

@@ -3,7 +3,7 @@
 }
 
 .flex-1 {
-  flex: 1 1 100px;
+  flex: 0 1 100px;
 }
 
 .flex {
@@ -12,25 +12,30 @@
   flex-basis: 0;
 }
 
-.flex-basis {
-  flex-basis: 100px;
-}
-
 .wrap {
   flex-wrap: wrap;
 }
 
-.item {
+.order .item {
   flex: 1;
 }
 
-.item.item1 {
+.order .item.item1 {
   order: 1;
 }
 
-.item.item2 {
-  order: 2;
+.align-self.start .item3 {
+  align-self: start;
 }
-.item.item3 {
-  order: 3;
+
+.align-self.end .item3 {
+  align-self: end;
+}
+
+.align-self.center .item3 {
+  align-self: center;
+}
+
+.align-self.stretch .item3 {
+  align-self: stretch;
 }
