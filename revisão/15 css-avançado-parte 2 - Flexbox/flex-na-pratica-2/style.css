@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  background-color: seagreen;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin: 10px;
+}
+
+@media (max-width:426px) {
+
+  
+  .header a {
+    padding: 10px;
+  }
+  
+  .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+  }
+
+  .menu li {
+    padding: 10px;
+  }
+
+  .menu li a {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
