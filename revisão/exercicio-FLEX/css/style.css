@@ -1,0 +1,96 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 44px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu {
+  margin-top: 45px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  font-weight: 400;
+  color: black;
+}
+
+.menu .botao-sobre a {
+  background-color: #5bc241;
+  padding: 10px;
+}
+
+.menu .botao-cadrasto {
+  background-color: #5bc241;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.menu .botao-sobre a,
+.menu .botao-cadrasto a {
+  color: #fff;
+}
+
+@media (max-width:768px) {
+  .logo {
+    flex-direction: row;
+    margin: 50px auto;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+ 
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo h1 {
+    font-size: 40px;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  .menu {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .menu li {
+    margin-top: 50px;
+  }
+
+  .menu a {
+    width: 100%;
+    display: block;
+  }
+}
