@@ -16,9 +16,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .titulos-e-nomes {
+  max-width: 100%;
   height: 432px;
   display: flex;
   flex-direction: column;
@@ -27,9 +29,8 @@ body {
 }
 
 h1 {
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-weight: 700;
-  
 }
 
 h2 {
@@ -67,5 +68,22 @@ h2 {
 @media (max-width: 1100px) {
   .container {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0px;
+    flex: 1;
+  }
+
+  .image-rome,
+  .image-boat,
+  .image-sand-sea,
+  .image-starry-night {
+    width: 335px;
+    height: 432px;
+    background-size: cover;
+    margin: auto;
   }
 }
