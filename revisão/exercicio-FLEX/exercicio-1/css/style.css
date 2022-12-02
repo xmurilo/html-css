@@ -38,6 +38,11 @@
 .menu li a.btn {
   background-color: #5bc241;
   color: #ffffff;
+  font-weight: 300;
   padding: 10px 21px;
   border-radius: 10px;
 }
+
+.menu li a.btn:hover {
+  background-color: #4aa135;
+} 
