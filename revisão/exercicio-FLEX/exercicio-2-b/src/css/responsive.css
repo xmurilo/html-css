@@ -1,0 +1,10 @@
+@media (max-width:1400px) {
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pinturas {
+    max-width: 900px;
+  }
+}
