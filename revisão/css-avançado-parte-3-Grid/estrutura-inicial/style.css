@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  height: 50vh;
+  background-color: lightcoral;
+  border: 10px solid red;
+  padding: 7px;
+  display: grid;
+  
+}
+
+.container div {
+  border: 1px solid #000;
+  background-color: lightseagreen;
+}
