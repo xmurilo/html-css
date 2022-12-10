@@ -5,13 +5,14 @@
 }
 
 .container {
-
   height: 50vh;
   background-color: lightcoral;
   border: 10px solid red;
   padding: 7px;
   display: grid;
-  
+  grid-template-columns: 50% auto;
+  grid-template-rows: 20% 20% 50px auto;
+  gap: 20px 5px;
 }
 
 .container div {
