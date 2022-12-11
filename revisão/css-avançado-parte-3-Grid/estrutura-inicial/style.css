@@ -10,8 +10,17 @@
   border: 10px solid red;
   padding: 7px;
   display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-rows: 20% 20% 50px auto;
+  /* grid-template-columns: 50% auto;
+  grid-template-rows: 20% 20% 50px auto; */
+
+  /* grid-template-columns:repeat(2, 50%);
+  grid-template-rows: repeat(3, 75px) 50px; */
+
+  grid-template: repeat(2, 75px) repeat(2, auto) / repeat(2,50%);
+
+  /* row-gap: 20px;
+  column-gap: 5px; */
+
   gap: 20px 5px;
 }
 
