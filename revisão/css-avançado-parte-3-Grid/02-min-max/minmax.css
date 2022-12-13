@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: minmax(100px, 800px) repeat(2, minmax(200px, 300px)) minmax(auto, auto);
+}
+
+
+.container div {
+  border: 1px solid #000;
+  background-color: rgb(57, 57, 152);
+  color: #fff;
+
+}
