@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 35px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% auto;
+  gap: 20px;
+}
+.video {
+  height: 450px;
+  max-width: 100%;
+  background-color: lightgrey;
+}
+
+.titulo-video-destaque {
+  margin-top: 12px;
+  font-size: 32px;
+}
+
+.visualizações {
+  margin-top: 7px;
+}
+
+.descricao {
+  margin-top: 9px;
+}
+
+.video-aside {
+  width: 170px;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+.propaganda {
+  width: auto;
+  height: 55px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asides {
+  display: flex;
+  margin-top: 20px;
+}
+
+.informacoes-videos {
+  margin-left: 7px;
+}
+
+.informacoes-videos h1 {
+  font-size: 18px;
+}
+
+.informacoes-videos .nome-canal,
+.visualizacoes-aside, .data-do-video {
+  font-size: 15px;
+}
