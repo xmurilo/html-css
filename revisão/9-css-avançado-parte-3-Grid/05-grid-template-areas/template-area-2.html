@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Something</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        display: grid;
+        text-align: center;
+        grid: 
+        "cabecalho cabecalho cabecalho" 200px
+        "menu secao-principal aside" 400px
+        "rodape rodape rodape" 150px 
+        / 200px 400px auto;
+      }
+
+      /* .cabecalho,
+      .menu,
+      .secao-principal,
+      .aside,
+      .rodape {
+        padding: 100px;
+      } */
+      .cabecalho {
+        background-color: lightcoral;
+        grid-area: cabecalho;
+      }
+
+      .menu {
+        grid-area: menu;
+        background-color: lightblue;
+      }
+
+      .secao-principal {
+        grid-area: secao-principal;
+        background-color: lightyellow;
+      }
+      .aside {
+        grid-area: aside;
+        background-color: lightgreen;
+      }
+      .rodape {
+        background-color: lightgrey;
+        grid-area: rodape;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">Header</header>
+      <nav class="menu">Menu</nav>
+      <section class="secao-principal">Main</section>
+      <aside class="aside">Aside</aside>
+      <footer class="rodape">rodape</footer>
+    </div>
+  </body>
+</html>

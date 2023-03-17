@@ -1,4 +1,4 @@
-.verde-claro {
+.verde {
   background-color: lightgreen;
 }
 
@@ -10,12 +10,12 @@
   background-color: hotpink;
 }
 
-.laranja-escuro {
-  background-color: rgb(201, 133, 7);
+.laranja {
+  background-color: lightcoral;
 }
 
-.verde-forte {
-  background-color: forestgreen;
+.verde-claro {
+  background-color: lightseagreen;
 }
 
 .marrom {
@@ -28,6 +28,13 @@
   gap: 2px;
 }
 
+.container div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* 
   row-start
   column-start
@@ -36,7 +43,7 @@
    
    */
 
-.verde-claro {
+.verde {
   grid-area: 1 / 1 / 3 / 3;
 }
 
@@ -48,9 +55,9 @@
   grid-area: 3 / 1 / auto / 3;
 }
 
-.laranja-escuro {
+.laranja {
   grid-area: 2 / 3 / 4 / 5;
 }
 
-/* .verde-forte 
+/* .verde-claro
 .marrom */

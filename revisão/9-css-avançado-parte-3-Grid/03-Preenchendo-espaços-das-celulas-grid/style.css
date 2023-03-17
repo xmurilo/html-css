@@ -1,21 +1,21 @@
-.verde-claro {
+.verde {
   background-color: lightgreen;
 }
 
 .azul {
-  background-color: skyblue;
+  background-color: lightblue;
 }
 
 .rosa {
   background-color: hotpink;
 }
 
-.laranja-escuro {
-  background-color: rgb(201, 133, 7);
+.laranja {
+  background-color: lightcoral;
 }
 
-.verde-forte {
-  background-color: forestgreen;
+.verde-claro {
+  background-color: lightseagreen;
 }
 
 .marrom {
@@ -28,7 +28,14 @@
   gap: 2px;
 }
 
-.verde-claro {
+.container div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verde {
   /* grid-column-start: 1;
   grid-column-end: 3; */
 
@@ -57,7 +64,7 @@
   grid-row: 3;
 }
 
-.laranja-escuro {
+.laranja {
   /* grid-column-start: 3;
   grid-column-end: 5; */
 
@@ -68,5 +75,5 @@
   grid-row: 2 / 4;
 }
 
-/* .verde-forte 
+/* .verde-claro 
 .marrom */
